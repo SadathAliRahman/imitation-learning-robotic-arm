@@ -391,7 +391,8 @@ For deeper technical details, refer to the individual documentation files:
 
 <div align="center">
 
-**Built with 🔶 by Sadath Ali Rahman**  
+**Built with 🔶 by Sadath Ali Rahman 
+rajid rahman**  
 *Imitation Learning · Robotics · Embedded Systems · Full-Stack UI*
 
 </div>

@@ -108,6 +108,14 @@ myCobot 280 (Master)  →  pymycobot (Serial)  →  Flask cobot_thread  →  ESP
 
 ---
 
+### 🔌 Hardware Wiring Diagram
+
+Below is the complete circuit diagram connecting the ESP32, the PCA9685 servo driver, the step-down buck converter, and all six servos.
+
+<div align="center">
+  <img src="base%20servo.jpg" alt="ArmFlow Circuit Diagram" width="800"/>
+</div>
+
 ## 🛠️ Full Technology Stack
 
 ### Hardware

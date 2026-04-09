@@ -335,14 +335,13 @@ This image shows all four Step 3 control panels side-by-side, one for each mode:
 - Node.js not required (pure vanilla frontend)
 
 ### 1. Flash the ESP32
-```
+```text
 1. Open: Imitation Learner/controller.ino in Arduino IDE
 2. Install libraries via Library Manager (Ctrl+Shift+I):
    - "Adafruit PWM Servo Driver Library"
    - "WiFiManager" by tzapu
 3. Select board: ESP32 Dev Module
 4. Upload via USB
-```
 
 ### 2. Hardware Wi-Fi Setup
 ```
@@ -353,19 +352,20 @@ This image shows all four Step 3 control panels side-by-side, one for each mode:
 5. Reconnect your PC to your normal Wi-Fi
 ```
 
-### 3. Install & Run the Hub
-```bash
-cd "Imitation Learner/ArmFlow"
-pip install flask pyserial ping3 pymycobot
-python app.py
-```
+3. Install & Run the Hub (One-Command Setup)
+Open your terminal and paste this single command. It will download the project, set up an isolated Python environment, install all required dependencies, and launch the web server automatically.
+curl -sSL [https://raw.githubusercontent.com/SadathAliRahman/imitation-learning-robotic-arm/main/start.sh](https://raw.githubusercontent.com/SadathAliRahman/imitation-learning-robotic-arm/main/start.sh) | bash
+
+(Manual alternative: Clone repo, navigate to Imitation Learner/ArmFlow, run pip install -r requirements.txt, then python app.py
 
 ### 4. Open the Control UI
 ```
-Open browser → http://localhost:5000
+ Open browser → http://localhost:5000
 Step 1: Scan Network → Select ESP32 → Connect to Arm
 Step 2: Choose your control mode
 Step 3: Control, teach, and play back your sequence
+
+
 ```
 
 ---

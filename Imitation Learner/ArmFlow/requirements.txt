@@ -1,0 +1,4 @@
+Flask
+pyserial
+ping3
+pymycobot
